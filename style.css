@@ -1,0 +1,483 @@
+*{
+padding: 0;}
+body{
+    margin: 0;
+background-color: black;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;}
+
+
+header{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+font-family: "Bebas Neue";
+color: white;
+font-size: 50px;}
+
+.wrapper{
+    margin:60px auto;
+width: 85vw;
+border: 5px solid black;
+border-radius: 3px;
+}
+
+/*Navigation*/
+nav{
+    z-index: 1;
+    position: sticky;
+    top: 0px;}
+#nav1{
+    display: flex;
+    justify-content: space-around;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;}
+.navlinks{
+    border: 0;
+    margin: 0;
+    background-color: black;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+.navlinks li{
+list-style: none;}
+.navlinks a {
+color: white;
+text-decoration: none;
+letter-spacing: 2px;
+font-weight: bold;}
+
+
+/* Header Content Hompage*/
+.content{
+    background-image: url(https://images.unsplash.com/photo-1611143669185-af224c5e3252?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80);
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+    height: 700px;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+margin-top: 0px;
+position: relative;
+isolation: isolate;
+}
+.content ::after {
+    content: '';
+position: absolute;
+z-index: -1;
+inset: 0;
+background: black;
+opacity: 0.2;
+}
+.content h1{
+padding-top: 300px;
+font-size: 40px;
+color: white;}
+
+#btnwhite{
+    color: black;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2px;
+    border-color: white;}
+
+/*Main Content*/
+main{
+margin: 0;
+padding: 0;}
+.content1{
+    background-image: url(https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=690&q=80);
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+    height: 500px;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+#head1{
+text-align: center;
+font-family: "Bebas Neue";
+color: black;
+padding-top:30px ;
+font-size: 40px;}
+
+.content1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+padding: 0px;
+margin-left: 500px;
+margin-right: 500px;
+font-size: large;}
+
+/*Main Content-2*/
+main{
+    margin: 0;
+    padding: 0;}
+    .content2{
+        background-image: url(https://chotto-matte.com/toronto/wp-content/uploads/sites/11/2022/04/Copy-of-ChottoMatte2_modif-1920x1280.jpg);
+        font-family: Arial, Helvetica, sans-serif;
+        background-position: center;
+        height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    isolation: isolate;
+    
+    }
+    .content2 ::after {
+    content: '';
+position: absolute;
+z-index: -1;
+inset: 0;
+background: black;
+opacity: 0.1;
+}
+    #head2{
+    text-align: left;
+    margin-left: 60px;
+    font-family: "Bebas Neue";
+    color: white;
+    padding-top:0px ;
+    font-size: 40px;
+    margin-bottom: 0;}
+    h1{
+    margin-right: 0;}
+    
+    .content2 p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    padding: 0px;
+    margin-left: 90px;
+    margin-right: 900px;
+    font-size: large;}
+
+            /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    margin-left: 310px;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #925bde;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .containerhome{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 70px;
+    margin-top: 0px;
+    margin-left: 600px;
+    margin-right: 300px;
+  }
+
+
+
+    /*Main Content-3*/
+
+    main{
+        margin: 0;
+        padding: 0;}
+        .content3{
+            background-image: url(https://chotto-matte.com/toronto/wp-content/uploads/sites/11/2022/04/Beef-Tataki-1.jpg);
+            font-family: Arial, Helvetica, sans-serif;
+            background-position: center;
+            height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        isolation: isolate;
+        
+        }
+        .content3 ::after {
+        content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: black;
+    opacity: 0.1;
+    }
+        #head3{
+        text-align: right;
+        margin-right: 60px;
+        font-family: "Bebas Neue";
+        color: white;
+        padding-top:30px ;
+        font-size: 40px;}
+        
+        .content3 p{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        padding: 0px;
+        margin-left: 900px;
+        margin-right: 90px;
+        font-size: large;}
+
+        /*About Us Content*/
+        .contentab h1{
+            font-family: Bebas Neue;
+            padding-top: 300px;
+            font-size: 60px;
+            color: white;}
+        .contentab{
+            background-image: url(https://static.wixstatic.com/media/nsplsh_4a6e464767566146706d45~mv2_d_4716_3369_s_4_2.jpg/v1/fill/w_1114,h_632,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/nsplsh_4a6e464767566146706d45~mv2_d_4716_3369_s_4_2.jpg);
+            font-family: Arial, Helvetica, sans-serif;
+            background-position: center;
+            height: 700px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin-top: 0px;
+        position: relative;
+        isolation: isolate;
+        }
+        .contentab ::after {
+            content: '';
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        background: black;
+        opacity: 0.2;
+        }
+      
+            .contentab2{
+                background-image: url(https://chotto-matte.com/wp-content/uploads/2022/04/5X5A1246.jpg);
+                font-family: Arial, Helvetica, sans-serif;
+                background-position: center;
+                height: 500px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            isolation: isolate;
+            
+            }
+            .contentab2 ::after {
+            content: '';
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        background: black;
+        opacity: 0.1;
+        }
+            #head2{
+            text-align: left;
+            margin-left: 60px;
+            font-family: "Bebas Neue";
+            color: white;
+            padding-top:30px ;
+            font-size: 40px;}
+            
+            .contentab2 p{
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            padding: 0px;
+            margin-left: 90px;
+            margin-right: 900px;
+            font-size: large;}
+
+            .contentab3{
+                background-image: url(https://images.unsplash.com/photo-1617196035154-1e7e6e28b0db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+                font-family: Arial, Helvetica, sans-serif;
+                background-position: center;
+                height: 500px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            isolation: isolate;
+            
+            }
+            .contentab3 ::after {
+            content: '';
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        background: black;
+        opacity: 0.1;
+        }
+            #head2{
+            text-align: left;
+            margin-left: 60px;
+            font-family: "Bebas Neue";
+            color: white;
+            padding-top:30px ;
+            font-size: 40px;}
+            
+            .contentab3 p{
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            padding: 0px;
+            margin-left: 900px;
+            margin-right: 90px;
+            font-size: large;}
+        
+
+
+
+
+
+
+        /*Menu*/
+        .menu h1{
+            padding-top: 50px;
+        font-size: 40px;
+        color: white;}
+        .menu h2{
+            padding-top: 80px;
+        font-size: 26px;
+        color: white;}
+        .menubox1 {
+         color: #424242;}
+
+        .menu {
+        color: rgba(240, 248, 255, 0.793);
+        border: solid;
+        border-width: 5px;
+        margin-left: 200px;
+    margin-right: 200px;
+        padding-top: 40px;
+        padding-bottom:800px;}
+    
+        .menu{
+            background-image: url(https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=690&q=80);
+            font-family: Arial, Helvetica, sans-serif;
+            background-position: center;
+            height: 1000px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin-top: 0px;
+        position: relative;
+        isolation: isolate;
+        }
+        .menu ::after {
+            content: '';
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        background: black;
+        opacity: 0.01;
+        }
+
+
+        /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: horizontal /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    margin-left: 310px;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #925bde;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+  .bg{
+    background-image: url(https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=690&q=80);
+    background-position: center;
+    height: 1000px;
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: 0px;
+position: relative;
+isolation: isolate;
+}
+.bg ::after {
+    content: '';
+position: absolute;
+z-index: -1;
+inset: 0;
+background: black;
+opacity: 0.05;
+}
+
+@media screen and (max-width:980px) {
+    .wrapper{
+        width: 100vw;
+        margin:0;
+    }
+    .content1{
+    text-align: center;
+    padding: 0px;
+margin-left: 0px;
+margin-right: 0px;
+     }
+    .nav{
+    height: auto;}
+    .nav ol li{
+    display: block;
+    text-align: center;
+    }
+    .header {
+    height: 50vh;
+    }
+    .header {
+        text-align: center;
+
+    font-size: 70px;
+    padding-top: 20vh;}
+    
+    .flex{
+    flex-direction: column;}
+    }
+
+
+
+
+
